@@ -53,6 +53,12 @@
     
     justify-content: space-evenly;
   }
+
+  .menu{
+    display: none;
+    color: white;
+    font-size: 30px;
+  }
   
   nav a {
     text-decoration: none;
@@ -62,6 +68,7 @@
   nav a:hover {
     color: blueviolet;
   }
+
   @media only screen and (max-width: 750px) {
     header,
     nav {
@@ -76,9 +83,19 @@
   
     nav {
       row-gap: 3em;
-      
+     
     }
-  }  
+
+    .menu {display: block;
+      
+
+
+    }
+
+  }
+  
+
+    
 .box{
   display: flex;
   flex-wrap: wrap;
@@ -195,7 +212,7 @@ background-color: green;
 }
 
 img{
- padding-top: 90px;
+ padding-top: 90px; 
   height: 500px ;
  
 }
@@ -214,6 +231,10 @@ img{
   
   
 
+}
+
+.picture{
+  display: flex;
 }
 
 
@@ -304,17 +325,12 @@ b{
 .container2{
   background-color: white;
   padding-top: 20px;
-  height: 100vh; 
+  height: 120vh; 
   width: 100vw;
   
   
 }
-.picture{
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
 
-}
 .heading{
   color: rgb(139, 137, 137);
   margin-top: 100px;
@@ -337,13 +353,7 @@ b{
  flex-wrap: wrap;
 
 }
-.image1{
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
 
-  
-}
 
 .container3{
   background-color: white;
@@ -448,6 +458,19 @@ font-family: sans-serif;
   color: rgb(100, 99, 99);
 }
 
+.picture1{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  
+}
+.img1{
+  justify-items: flex-start;
+}
+
+
+
 
 
 .content5{
@@ -500,7 +523,7 @@ button{
 
 
 .container5{
-  max-height: 100vh;
+  height: 120vh;
   background-color: white;
 }
 .gg{
@@ -581,7 +604,7 @@ button{
 .form {
   padding: 2em;
   background: black;
-  height: 480px;
+  height: 600px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -717,3 +740,4 @@ button{
     width: fit-content;
   }
 }
+
